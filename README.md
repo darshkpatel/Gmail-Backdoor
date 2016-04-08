@@ -3,10 +3,11 @@ This is a single Script gmail backdoor.
 
 I have tested it on Ubuntu 15.10.
 
-Requirements:
+##Requirements:
 
-google-api-python-client
-httplib2
+*google-api-python-client
 
-feel free to add to the list. This is not a exhaustive list
+*httplib2
+
+Please feel free to add to the list. This is not a exhaustive list
   
