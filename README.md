@@ -5,9 +5,9 @@ I have tested it on Ubuntu 15.10.
 
 ##Requirements:
 
-*google-api-python-client
+* google-api-python-client
 
-*httplib2
+* httplib2
 
 Please feel free to add to the list. This is not a exhaustive list
   
