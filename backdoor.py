@@ -89,15 +89,7 @@ def GetMimeMessage(service, user_id, msg_id):
     message = service.users().messages().get(userId=user_id, id=msg_id,
                                              format='full').execute()
     print (message)
-    #print ('Message snippet: %s' % message['snippet'])
-    
-    #msg_str = base64.urlsafe_b64decode(message['payload']['parts'][1]["body"]["data"].encode('ASCII'))
 
-    #print(msg_str)
-    #mime_msg = email.message_from_string(msg_str)
-
-    #print (mime_msg)
-    #return mime_msg
   except errors.HttpError, error:
     print ('An error occurred: %s' % error)
 
