@@ -15,6 +15,8 @@ Please feel free to add to the list. This is not a exhaustive list
 
 * ```git clone https://github.com/darshkpatel/Gmail-Backdoor/```
 
+* ```cd Gmail-backdoor```
+
 * ```python backdoor.py ```
 
 
